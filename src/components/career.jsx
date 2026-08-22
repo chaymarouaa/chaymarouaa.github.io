@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { motion } from "motion/react"
-import SectionTitle from "./SectionTitle"
+import SectionTitle from "./sectiontitle"
 
 const careerGoals = [
   {
