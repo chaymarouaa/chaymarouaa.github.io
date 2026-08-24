@@ -7,8 +7,8 @@ function Crack() {
       title="Discrete Crack Propagation Simulation"
       category="Academic Project"
       description="Discrete numerical modeling of an elastic solid using particles interactions, Verlet integration and mechanical characterization."
-      image="/src/assets/projects/crack.jpg"
-      video="/src/assets/projects/crack.mp4"
+      image="/projects-assets/crack.jpg"
+      video="/project-assets/crack.mp4"
     >
 
       <section className="documentation-section">

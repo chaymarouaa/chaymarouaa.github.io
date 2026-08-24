@@ -148,7 +148,7 @@ function Granular() {
 
         <h3>To read the full technical report of this project, click on the link right below in the original version.</h3>
 
-        <a href="/reports/granular/Projet_modelisation_ecoulement_granulaire_ROUAA_SOUTO.pdf"
+        <a href="/granular-files/granular-original-report.pdf"
           target="_blank"
           rel="noreferrer">
          Full Technical Documentation (original french version) 

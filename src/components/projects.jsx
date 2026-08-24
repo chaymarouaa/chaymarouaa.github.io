@@ -9,8 +9,7 @@ const personalProjects = [
   year: "2026",
   stage : "Final Stage",
   description: "Interactive computational model of a biomimetic lily controlled through hand tracking.",
-  image: "/src/assets/projects/lilium.jpg",
-  video: "/src/assets/projects/lilium.mp4",
+  image: "/projects-assets/lilium.jpg",
   tags: ["Hand-tracking", "Kinematics", "Biomimetics", "Nonlinear Dynamics", "Logistic Growth", "Bezier Curves"],
   tools: ["Touch-Designer", "MediaPipe"]
   },
@@ -22,7 +21,7 @@ const personalProjects = [
   year: "2026",
   stage : "Ongoing",
   description: "Development of a mechatronic embedded system integrated into an existing trolley for load transport assistance.",
-  image: "/src/assets/projects/trolley.jpg",
+  image: "/projects-assets/trolley.jpg",
   tags: ["Mechatronics", "Robotics", "Simulation", "Reverse Engineering"],
   tools: ["CATIA", "Matlab", "Simscape Electrical"]
   },
@@ -34,7 +33,7 @@ const personalProjects = [
   year: "2026",
   stage: "Test and Validation Stage",
   description: "Modeling an adjustable mechanical structure for optimized use.",
-  image: "/src/assets/projects/mirror.jpg",
+  image: "/projects-assets/mirror.jpg",
   tags: ["CAD Modeling", "Assembly", "3D printing", "Mechanism", "3-DOF", "Mechanical Engineering", "Reverse Engineering"],
   tools: ["CATIA"]
   }
@@ -49,7 +48,7 @@ const academicProjects = [
   year: "2022",
   stage: "Finished",
   description: "Mechanical design of a plantigrade walking mechanism based on a Chebyshev linkage.",
-  image: "/src/assets/projects/plantigrade.jpg",
+  image: "/projects-assets/plantigrade.jpg",
   tags: ["Robotics", "CAD Modeling", "Chebychev Mechanism"],
   tools: ["SolidWorks"]
   },
@@ -61,7 +60,7 @@ const academicProjects = [
   year: "2024",
   stage : "Finished",
   description:"Trajectory modelling and control of a three-degree-of-freedom robotic arm.",
-  image: "/src/assets/projects/arm.jpg",
+  image: "/projects-assets/arm.jpg",
   tags: ["Robotics", "Control", "Trajectory", "Interpolation"],
   tools: ["Matlab"]
   },
@@ -73,7 +72,7 @@ const academicProjects = [
   year: "2024",
   stage : "Finished",
   description:"Numerical modelling of crack propagation using Python.",
-  image: "/src/assets/projects/crack.jpg",
+  image: "/projects-assets/crack.jpg",
   tags: ["Simulation", "Discrete Mechanics", "Energy Analysis", "Solid Mechanics", "Elastic Structures", "Verlet"],
   tools: ["Python", "Ovito" ]
   },
@@ -85,7 +84,7 @@ const academicProjects = [
   year: "2023",
   stage : "Finished",
   description: "Numerical study of granular material flow over time.",
-  image: "/src/assets/projects/granular.jpg",
+  image: "/projects-assets/granular.jpg",
   tags: ["Simulation", "Numerical Methods", "Programming"],
   tools: ["Fortran"]
   },
@@ -100,7 +99,7 @@ const futureProjects = [
   year: "2026",
   stage: "Study Stage",
   description: "Development of a hand-free intelligent tool for video oriented use based on face-tracking.",
-  image: "/src/assets/projects/stabilizer.jpg",
+  image: "/projects-assets/stabilizer.jpg",
   tags: ["Robotics", "Embedded System", "Stability", "Vibrations", "Mechatronics", "IMU","AHRS", "GNSS", "INS"],
   tools: ["Siemens NX", "Matlab", "Simulink", "ANSYS"]
   },
@@ -112,7 +111,7 @@ const futureProjects = [
   year: "2022",
   stage: "Study Stage",
   description: "Implementation of Gesture-Based control using Hand-tracking for Humanoids Specific Actions",
-  image: "/src/assets/projects/sign.jpg",
+  image: "/projects-assets/sign.jpg",
   tags: ["Medical Robotics", "Hand-tracking", "Robot Control", "HMI", "Gesture Interpretation", "Human Motion",],
   tools: ["TouchDesigner", "Matlab"]
   }]

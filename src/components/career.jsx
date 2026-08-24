@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { motion } from "motion/react"
-import SectionTitle from "./sectiontitle"
 
 const careerGoals = [
   {
@@ -62,7 +61,7 @@ function Career() {
           return (
             <motion.article
               key={goal.id}
-              className={"career-node ${goal.position}"}
+              className={`career-node ${goal.position}`}
               onMouseEnter={() => setActiveId(goal.id)}
               onMouseLeave={() => setActiveId(null)}
 
@@ -71,8 +70,8 @@ function Career() {
                 scale: isActive ? 1.05 : 1,
                 x: isActive
                   ? goal.position === "left"
-                    ? 10
-                    : -10
+                    ? 15.0
+                    : -15.0
                   : 0,
               }}
               transition={{
