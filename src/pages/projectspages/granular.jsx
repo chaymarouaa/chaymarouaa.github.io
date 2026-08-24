@@ -157,7 +157,7 @@ function Granular() {
 
         <h3>The english version is not yet available.</h3>
 
-        <a href="/reports/granular-report/granular.pdf"
+        <a href="/granular-files/granular-report.pdf"
           target="_blank"
           rel="noreferrer">
          Full Technical Documentation (remastered english version) 

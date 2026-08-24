@@ -2,12 +2,14 @@ import ProjectPage from "../projectpage"
 
 function Lilium() {
   return (
+    <>
+
     <ProjectPage
       title="Interactive Biomimetic Lilium"
       category="Personal Project"
       description="Computational design of an interactive biomimetic lily controlled through hand tracking."
-      image="/src/assets/projects/lilium.jpg"
-      video="/src/assets/projects/lilium.mp4"
+      image="/projects-assets/lilium.jpg"
+      video="/projects-assets/lilium.mp4"
     >
 
       <section className="documentation-section">
@@ -18,11 +20,9 @@ function Lilium() {
 
         <h2>Project Overview</h2>
 
-        <p>
-          This project explores the interaction between
-          computational biomimicry, hand tracking and
-          real-time visual systems.<br/><br/><br/><br/><br/><br/><br/>
-        </p>
+        <h3>
+          This part will be updated soon. 
+        </h3>
 
       </section>
 
@@ -31,10 +31,9 @@ function Lilium() {
 
         <h2>Engineering Approach</h2>
 
-        <p>
-          The system combines gesture recognition,
-          geometric modelling and real-time animation.
-        </p>
+        <h3>
+          This part will be updated soon. 
+        </h3>
 
       </section>
 
@@ -43,11 +42,9 @@ function Lilium() {
 
         <h2>Development</h2>
 
-        <p>
-          Computational geometry and interaction logic
-          were developed using TouchDesigner and
-          hand-tracking technologies.
-        </p>
+        <h3>
+          This part will be updated soon. 
+        </h3>
 
       </section>
 
@@ -56,10 +53,9 @@ function Lilium() {
 
         <h2>Results</h2>
 
-        <p>
-          The system produces a real-time interactive
-          representation of the flower opening mechanism.
-        </p>
+        <h3>
+          This part will be updated soon. 
+        </h3>
 
       </section>
 
@@ -68,15 +64,47 @@ function Lilium() {
 
         <h2>Future Work</h2>
 
-        <p>
-          Future iterations could incorporate more
-          sophisticated kinematic modelling and
-          additional interaction modalities.
-        </p>
+        <h3>
+          This part will be updated soon. 
+        </h3>
 
       </section>
 
+      <section className="documentation-section">
+        
+        <h2>Technical Report</h2>
+
+        <h3>The technical report of this project will be published soon. </h3>
+
+        <h3>
+          
+          To be notified by the progress of this project, don't hesitate to take a look at my LinkedIn and GitHub profile with the link right below.
+          
+          <br/><br/>
+          
+
+          <a
+          href="https://linkedin.com/in/chaymarouaa"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Linkedin <br/> Chayma Rouaa
+        </a>
+        <a
+          href="https://github.com/chaymarouaa"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub <br/> Chayma Rouaa 
+        </a>
+        </h3>
+
+
+      </section>
+
+
     </ProjectPage>
+    </>
   )
 }
 

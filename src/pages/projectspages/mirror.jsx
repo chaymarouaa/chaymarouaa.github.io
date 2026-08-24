@@ -5,9 +5,9 @@ function Mirror() {
     <ProjectPage
       title="Optimized Adjustable Mirror Support"
       category="Personal Project"
-      description="Modeling a 4-DOF mirror support including two translation and two rotational axis for a better user experience."
+      /*description="Modeling an optimized mirror support for a better user experience"*/
       image="/src/assets/projects/image.jpg"
-      video="/src/assets/projects/video.mp4"
+      /*video="/src/assets/projects/video.mp4"*/
     >
 
       <section className="documentation-section">
@@ -29,7 +29,7 @@ function Mirror() {
         <h2>Engineering Approach</h2>
 
         <p>
-         The system has been thaught to be adjustable vertically and horizontally through two separate sliding mates, 
+         The system aims to be adjustable vertically and horizontally through two separate sliding mates, 
          and also orientable through horizontal and vertical axis through pivot joints.
         </p> 
 
@@ -40,10 +40,9 @@ function Mirror() {
 
         <h2>Development</h2>
 
-        <p>
-          The first and most important piece is the frame, "socle". 
-          The stability of the system depends mostly on its geometrical form.
-        </p>
+        <h3>
+          This part will be updated soon. 
+        </h3>
 
       </section>
 
@@ -52,8 +51,9 @@ function Mirror() {
 
         <h2>Results</h2>
 
-        <i>The results will be here soon.
-        </i>
+        <h3>
+          This part will be updated soon. 
+        </h3>
 
       </section>
 
@@ -62,8 +62,9 @@ function Mirror() {
 
         <h2>Challenges</h2>
 
-        <i>The challenges will be here soon.
-        </i>
+        <h3>
+          This part will be updated soon. 
+        </h3>
 
       </section>
 
@@ -76,11 +77,44 @@ function Mirror() {
           be foldable into a compact configuration to allow easy transportation.
         </p>
 
-        <p>A second improvement would integrate a face tracking system to permit the 
-          support to automatically place parallelly to the user face and rotate accordingly 
+        <p>A second improvement more sophisticated would integrate a face tracking system to permit the 
+          support to automatically be placed parallelly to the user face and rotate accordingly 
           to the user movement without human intervention.</p>
 
       </section>
+
+      <section className="documentation-section">
+        
+        <h2>Technical Report</h2>
+
+        <h3>The technical report of this project will be published soon. </h3>
+
+        <h3>
+          
+          To be notified by the progress of this project, don't hesitate to take a look at my LinkedIn and GitHub profile with the link right below.
+          
+          <br/><br/>
+          
+
+          <a
+          href="https://linkedin.com/in/chaymarouaa"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Linkedin <br/> Chayma Rouaa
+        </a>
+        <a
+          href="https://github.com/chaymarouaa"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub <br/> Chayma Rouaa 
+        </a>
+        </h3>
+
+
+      </section>
+
 
     </ProjectPage>
   )

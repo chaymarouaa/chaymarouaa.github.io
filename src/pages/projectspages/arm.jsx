@@ -6,8 +6,8 @@ function Arm() {
       title="Trajectory and Control of a 3R Arm Robot"
       category="Personal Project"
       description="Simulation and trajectory control of a three rotational degree of freedom robot."
-      image="/src/assets/projects/arm.jpg"
-      video="/src/assets/projects/arm.mp4"
+      image="/projects-assets/arm.jpg"
+      video="/projects-assets/arm.mp4"
     >
 
       <section className="documentation-section">
@@ -71,6 +71,29 @@ function Arm() {
           additional interaction modalities.
         </p>
 
+      </section>
+
+     <section className="documentation-section">
+
+        <h2>Technical Report</h2>
+
+        <h3>
+          To read the full technical report of this project, click on the
+          link below.
+        </h3>
+
+        <a
+          href="/arm-files/arm-report-original.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Full Technical Documentation (original french version)<br/>
+        </a>
+
+        <h3>
+          The English version is not yet available.
+        </h3>
+      
       </section>
 
     </ProjectPage>

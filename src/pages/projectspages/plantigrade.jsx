@@ -8,8 +8,8 @@ function Plantigrade() {
       category="Personal Project"
       description="CAD design and motion simulation of a four-legged 
       walking mechanism based on the Tchebyshev linkage."
-      image="/src/assets/projects/plantigrade.jpg"
-      video="/src/assets/projects/plantigrade.mp4"
+      image="/projects-assets/plantigrade.jpg"
+      video="/projects-assets/plantigrade.mp4"
     >
 
       <section className="documentation-section">
@@ -171,14 +171,11 @@ function Plantigrade() {
 
         <h3>To read the full technical report of this project, click on the link right below.</h3>
 
-        <a href="\public\plantigrade-files\plantigrade-report.pdf"
+        <a href="\plantigrade-files\plantigrade-report.pdf"
           target="_blank"
           rel="noreferrer">
          Full Technical Documentation <br/>  
         </a>
-        
-
-
 
       </section>
 
