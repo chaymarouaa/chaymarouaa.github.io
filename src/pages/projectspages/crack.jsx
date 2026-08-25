@@ -8,7 +8,7 @@ function Crack() {
       category="Academic Project"
       description="Discrete numerical modeling of an elastic solid using particles interactions, Verlet integration and mechanical characterization."
       image="/projects-assets/crack.jpg"
-      video="/project-assets/crack.mp4"
+      video="/projects-assets/crack.mp4"
     >
 
       <section className="documentation-section">

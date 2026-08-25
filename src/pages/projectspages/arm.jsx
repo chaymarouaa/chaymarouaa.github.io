@@ -23,56 +23,6 @@ function Arm() {
 
       </section>
 
-
-      <section className="documentation-section">
-
-        <h2>Engineering Approach</h2>
-
-        <p>
-          The system combines gesture recognition,
-          geometric modelling and real-time animation.
-        </p>
-
-      </section>
-
-
-      <section className="documentation-section">
-
-        <h2>Development</h2>
-
-        <p>
-          Computational geometry and interaction logic
-          were developed using TouchDesigner and
-          hand-tracking technologies.
-        </p>
-
-      </section>
-
-
-      <section className="documentation-section">
-
-        <h2>Results</h2>
-
-        <p>
-          The system produces a real-time interactive
-          representation of the flower opening mechanism.
-        </p>
-
-      </section>
-
-
-      <section className="documentation-section">
-
-        <h2>Future Work</h2>
-
-        <p>
-          Future iterations could incorporate more
-          sophisticated kinematic modelling and
-          additional interaction modalities.
-        </p>
-
-      </section>
-
      <section className="documentation-section">
 
         <h2>Technical Report</h2>
