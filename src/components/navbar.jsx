@@ -12,14 +12,15 @@ function Navbar() {
       </a>
 
       <div className="navbar-links">
-        <a href="#projects">
-          <span className="nav-indicator">•</span>
-          <span>WORK</span>
-        </a>
 
         <a href="#about">
           <span className="nav-indicator">•</span>
           <span>ABOUT</span>
+        </a>
+        
+        <a href="#projects">
+          <span className="nav-indicator">•</span>
+          <span>WORK</span>
         </a>
 
         <a href="#career">

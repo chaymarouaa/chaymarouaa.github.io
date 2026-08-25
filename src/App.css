@@ -236,6 +236,171 @@ section-label {
 }
 
 
+/* ==================
+   ABOUT SECTION
+   ================== */
+
+.about-section {
+  width: min(2200px, calc(100% - 10px));
+
+  margin: 0 auto;
+
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.about-header {
+  margin-bottom: 0px;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin-top: 0px;
+}
+
+.about-text {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 24px;
+  background: rgba(#28606e);
+  border: 1px solid rgba(#05171f);
+  backdrop-filter: blur(10px);
+}
+
+.about-text p {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 1.4rem;
+
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: rgba(#28606e);
+}
+
+.about-text p:first-child {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.about-text p:last-of-type {
+  margin-bottom: 0;
+}
+
+
+
+
+/*================
+ANIMATION Orbes lumineuses
+=================*/
+
+.about-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-section::before {
+  content: "";
+  position: absolute;
+
+  width: 350px;
+  height: 350px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(64, 151, 153, 0.796) 0%,
+      rgba(28, 251, 255, 0.105) 35%,
+      transparent 70%
+    );
+
+  filter: blur(20px);
+
+  left: 10%;
+  top: 20%;
+
+  pointer-events: none;
+
+  animation: aboutOrb 12s ease-in-out infinite alternate;
+}
+
+@keyframes aboutOrb {
+  0% {
+    transform: translate(0, 0) scale(0.9);
+  }
+
+  50% {
+    transform: translate(180px, 80px) scale(1.15);
+  }
+
+  100% {
+    transform: translate(350px, -30px) scale(0.95);
+  }
+}
+
+
+/* CV */
+
+.about-cv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  margin-top: 3rem;
+  padding-top: 2rem;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.about-cv > span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.55);
+  text-transform: uppercase;
+}
+
+.about-cv-buttons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.about-cv-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.8rem 1.3rem;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  color: #ffffff;
+  text-decoration: none;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.about-cv-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-3px);
+}
+
+
 /* =========================
    PROJECTS
 ========================= */
@@ -780,6 +945,40 @@ PAGE
 
   .hero h1 {
     font-size: 18vw;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .about-text {
+    padding: 2rem;
+    border-radius: 20px;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .about-text p:first-child {
+    font-size: 1.15rem;
+  }
+
+  .about-cv {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+
+  .about-cv-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .about-cv-button {
+    width: 100%;
   }
 
 }
