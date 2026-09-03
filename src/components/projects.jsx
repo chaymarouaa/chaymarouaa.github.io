@@ -125,20 +125,6 @@ function Projects() {
       </div>
 
       <div className="project-category">
-        <h3>Personal Projects</h3>
-
-        <div className='project-grid'> 
-          {personalProjects.map((project) => (
-            <ProjectCard
-              key={project.title}
-              {...project}
-            />
-
-          ))}
-        </div>        
-      </div>
-
-      <div className="project-category">
         <h3>Academic Projects</h3>
 
         <div className='project-grid'> 
@@ -150,6 +136,20 @@ function Projects() {
 
           ))}
         </div> 
+      </div>
+
+      <div className="project-category">
+        <h3>Personal Projects</h3>
+
+        <div className='project-grid'> 
+          {personalProjects.map((project) => (
+            <ProjectCard
+              key={project.title}
+              {...project}
+            />
+
+          ))}
+        </div>        
       </div>
 
       <div className="project-category">

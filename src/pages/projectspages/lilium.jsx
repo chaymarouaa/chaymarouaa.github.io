@@ -9,72 +9,14 @@ function Lilium() {
       category="Personal Project"
       description="Computational design of an interactive biomimetic lily controlled through hand tracking."
       image="/projects-assets/lilium.jpg"
-      video="/projects-assets/lilium.mp4"
+      video="/projects-assets/lilium2.mp4"
     >
 
       <section className="documentation-section">
-
-        {/*<span className="section-number">
-          01
-        </span>*/}
-
-        <h2>Project Overview</h2>
-
-        <h3>
-          This part will be updated soon. 
-        </h3>
-
-      </section>
-
-
-      <section className="documentation-section">
-
-        <h2>Engineering Approach</h2>
-
-        <h3>
-          This part will be updated soon. 
-        </h3>
-
-      </section>
-
-
-      <section className="documentation-section">
-
-        <h2>Development</h2>
-
-        <h3>
-          This part will be updated soon. 
-        </h3>
-
-      </section>
-
-
-      <section className="documentation-section">
-
-        <h2>Results</h2>
-
-        <h3>
-          This part will be updated soon. 
-        </h3>
-
-      </section>
-
-
-      <section className="documentation-section">
-
-        <h2>Future Work</h2>
-
-        <h3>
-          This part will be updated soon. 
-        </h3>
-
-      </section>
-
-      <section className="documentation-section">
         
-        <h2>Technical Report</h2>
-
-        <h3>The technical report of this project will be published soon. </h3>
+        <h3>
+          This project is not yet available. More informations will be published soon. 
+        </h3>
 
         <h3>
           

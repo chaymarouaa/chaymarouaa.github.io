@@ -26,10 +26,17 @@ function Hero() {
         Mechanical Engineering · Robotics · Mechatronics · Biomechanics
         </p>
 
-        <p className="hero-description">
+        <p>
         Engineering student based in Paris interested in the design, modelling and
         development of intelligent mechanical systems.
         </p>
+
+        <h3>
+          Third-year Engineering Sciences student 
+          at Université Évry Paris-Saclay, seeking 
+          an apprenticeship for the 2026-2027 
+          academic year.
+        </h3>
 
         <a href="#projects" className="hero-button">
         VIEW PROJECTS
